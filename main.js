@@ -12,13 +12,13 @@ wordList = ["discipline","rally","nerve","supply","end","substitute","graphic","
 
 function CountDown() {
 for (var i = 0;i < 10;i++) {
-	setTimeout(function() {Score.innerHTML = parseInt(Score.innerHTML) - (parseInt(Score.value)/4)	},i*100)
+	setTimeout(function() {Score.innerHTML = parseInt(Score.innerHTML) - (parseInt(Score.value())/4)	},i*100)
 }
 }
 
 function CountUp() {
 for (var i = 0;i < 10;i++) {
-	setTimeout(function() {Score.innerHTML = parseInt(Score.innerHTML) + (parseInt(Score.value)/4)},i*100)
+	setTimeout(function() {Score.innerHTML = parseInt(Score.innerHTML) + (parseInt(Score.value())/4)},i*100)
 }
 }
 
