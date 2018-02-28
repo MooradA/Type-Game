@@ -18,7 +18,7 @@ for (var i = 0;i < 10;i++) {
 
 function CountUp() {
 for (var i = 0;i < 10;i++) {
-	setTimeout(function() {Score.innerHTML = parseInt(Score.innerHTML) (parseInt(Score.value)/4)},i*100)
+	setTimeout(function() {Score.innerHTML = parseInt(Score.innerHTML) + (parseInt(Score.value)/4)},i*100)
 }
 }
 
@@ -53,6 +53,7 @@ document.onkeydown = function(event) {
 	if (Text.innerHTML.length == 0) {mainFunction();}
 
 }
+console.log("This is New")
 var Text = document.getElementById("CurrentWord")
 var Letter = document.getElementById("Letter")
 var Score = document.getElementById("Score")
