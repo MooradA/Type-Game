@@ -53,7 +53,7 @@ document.onkeydown = function(event) {
 	if (Text.innerHTML.length == 0) {mainFunction();}
 
 }
-console.log(Score.value)
+console.log("This is New")
 var Text = document.getElementById("CurrentWord")
 var Letter = document.getElementById("Letter")
 var Score = document.getElementById("Score")
