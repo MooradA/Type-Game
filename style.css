@@ -1,0 +1,22 @@
+h1,h2 {
+	font-family:Viga;
+	text-align:center;
+	color:#FEFEFE;
+	margin:0px;
+}
+
+h2 {
+ 	font-size:300%;
+
+}
+
+h1 {
+	font-size:600%;
+
+
+}
+
+html {
+	background:#131313;
+
+}
